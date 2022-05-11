@@ -1,29 +1,27 @@
-.item1 {
-  grid-area: header;
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
-.item2 {
-  grid-area: menu;
+.body {
+  width: 100%;
+  overflow: hidden;
 }
 
-.item3 {
-  grid-area: main;
+.side-bar {
+  float: left;
+  width: 20%;
+  height: 100%;
 }
 
-.item4 {
-  grid-area: footer;
+.main {
+  overflow-y: scroll;
+  background-color: rgb(18, 18, 18);
 }
 
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'menu header header header header header'
-    'menu main main main main main'
-    'footer footer footer footer footer footer';
-}
-
-.grid-container {
-  div {
-    padding: 0 0 0 20px;
-  }
+.footer {
+  position: relative;
+  background-color: rgb(40, 40, 40);
+  z-index: 2;
 }

@@ -1,4 +1,5 @@
-.previous {
+.header {
+  overflow: hidden;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -6,34 +7,61 @@
   right: 0;
   height: 70px;
   z-index: 1;
-  background-color: rgba(11, 11, 11, 0.8);
+  background-color: rgba(11, 11, 11, 0.9);
 }
 
-.btn_previous {
-  margin-right: 10px;
-  padding-left: 35px;
+.btn-go-to {
   font-size: 35px;
   color: black;
 }
 
-.btn_next {
-  font-size: 35px;
-  color: black;
+.btn-previous {
+  position: absolute;
+  padding-left: 30px;
 }
 
-.btn_previous:hover {
+.btn-next {
+  position: absolute;
+  padding-left: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-authen {
+  padding: 8px 30px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.btn-authen:hover {
   transition: scale 0.5s;
-  transform: scale(1.05);
+  transform: scale(1.005);
 }
 
-.container_big {
-  width: 100%;
-  overflow: hidden;
+.btn-signup {
+  position: absolute;
+  right: 160px;
+  color: white;
+  opacity: 0.7;
 }
 
-.clearfix::after {
-  content: '';
-  display: table;
-  clear: both;
+.btn-signup:hover {
+  opacity: 1;
 }
+
+.btn-login {
+  position: absolute;
+  right: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 40px;
+  background-color: white;
+  color: black;
+}
+
+.btn-login:hover {
+  opacity: 0.7;
+}
+
 
