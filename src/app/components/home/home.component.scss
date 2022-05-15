@@ -1,23 +1,21 @@
-.clearfix::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
 .body {
   width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 
 .side-bar {
   float: left;
-  width: 20%;
-  height: 100%;
+  width: 18%;
+  height: 87vh;
 }
 
 .main {
   overflow-y: scroll;
+  overflow-x: hidden;
   background-color: rgb(18, 18, 18);
+  width: 82%;
+  height: 87vh;
 }
 
 .footer {

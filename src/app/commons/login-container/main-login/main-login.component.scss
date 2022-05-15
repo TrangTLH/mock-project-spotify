@@ -1,0 +1,99 @@
+.middle1 {
+  background-color: rgb(153, 51, 153);
+  color: white;
+}
+
+.body-middle {
+  margin-left: 120px;
+  margin-right: 120px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  display: flex;
+}
+
+.text {
+  width: 60%;
+  margin-right: 90px;
+}
+
+.spotify-premium {
+  margin: 0px 0px 40px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1.2;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 700;
+  width: 100%;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 30px 0px;
+}
+
+.button {
+  margin: 35px 0px 0px;
+}
+
+.btn {
+  line-height: 20px;
+  border-radius: 500px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 14px 32px;
+  cursor: pointer;
+}
+
+.btn-get-month {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+
+.btn:hover {
+  transition: scale 0s;
+  transform: scale(1.05);
+}
+
+.footer {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 40px;
+  padding: 0px 0px 1em;
+  width: 100%;
+}
+
+.footer a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.image {
+  float: right;
+}
+
+img {
+  width: 410px;
+  height: 410px;
+}
+
+.middle2 {
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-image: url(https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg);
+  background-color: rgb(41, 65, 171);
+  color: #1ed760;
+  min-height: 500px;
+}
+
+.btn-open-web {
+  background-color: #1ed760;
+  color: rgb(41, 65, 171);
+  border: 1px solid #1ed760;
+}

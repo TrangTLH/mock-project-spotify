@@ -1,0 +1,81 @@
+.top {
+  overflow: hidden;
+  background-color: rgba(11, 11, 11, 1);
+  padding-left: 25px;
+  padding-top: 25px;
+  height: 87vh;
+}
+
+.logo {
+  width: 150px;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  align-content: center;
+  color: white;
+}
+
+ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+
+li {
+  margin-bottom: 17px;
+
+}
+
+li:first-child {
+  position: relative;
+}
+
+li:first-child::before {
+  opacity: 1;
+}
+
+svg:first-child {
+  fill: #ffffff;
+}
+
+svg:focus {
+  fill: #ffffff;
+  opacity: 1;
+}
+
+.button {
+  font-weight: 600;
+  color: white;
+  font-size: 16px;
+  opacity: 0.7;
+  padding-left: 10px;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.button:active {
+  opacity: 1;
+}
+
+.button:focus {
+  opacity: 1;
+}
+
+i {
+  color: white;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-right: 5px;
+}
+
+.btn-playlist {
+  margin-top: 40px;
+}
+
+.songs li:first-child {
+  margin-top: 35px;
+}

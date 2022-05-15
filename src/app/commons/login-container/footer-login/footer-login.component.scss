@@ -1,0 +1,108 @@
+.footer {
+  background-color: black;
+}
+
+ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0 !important;
+}
+
+.body {
+  margin-left: 120px;
+  margin-right: 120px;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  display: flex;
+}
+
+.spotify {
+  width: calc(100% / 6);
+}
+
+.logo {
+  width: 150px;
+  height: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #1ed760;
+}
+
+.info {
+  width: 50%;
+  display: flex;
+}
+
+:host ::ng-deep .part {
+  padding: 0 15px;
+  width: calc(100% / 3);
+
+  .title {
+    margin: 20px 0;
+    color: #919496;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.08em;
+    width: 100%;
+    text-transform: uppercase;
+  }
+
+  ul {
+    li {
+      padding: 3px 0 20px;
+    }
+  }
+}
+
+.txt-line {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+:host ::ng-deep .media {
+  margin: 20px 0 0;
+
+  ul {
+    display: flex;
+
+    li {
+      margin-right: 15px;
+      width: 54px;
+      height: 54px;
+      border: 1px solid #222326;
+      border-radius: 50%;
+      background-color: #222326;
+      -webkit-align-content: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      a {
+        display: inline-flex;
+        -webkit-align-content: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        overflow: hidden;
+        width: 50px;
+        height: 50px;
+
+        i {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}
+
+.icon {
+
+  width: 50%;
+}

@@ -1,0 +1,24 @@
+<div class="header">
+  <a class="btn-go-to btn-previous" href="#"><i class="fa fa-circle-chevron-left"></i></a>
+  <a class="btn-go-to btn-next" href="#"><i class="fa fa-circle-chevron-right"></i></a>
+  <ng-container *ngIf="!isLogin">
+    <a class="btn-header btn-signup" href="#">{{btnSignup}}</a>
+    <a class="btn-header btn-login" (click)="login()" href="#">{{btnLogin}}</a>
+  </ng-container>
+  <ng-container *ngIf="isLogin">
+    <a class="btn-header btn-signup btn-upgrade" href="#">{{btnUpgrade}}</a>
+    <div class="dropdown">
+      <a class="btn-header btn-account" href="#" role="button" data-bs-toggle="dropdown" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <i class="fa-regular fa-circle-user"></i>
+      {{username}}
+      <i class="fa fa-caret-down"></i>
+    </a>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        <a class="dropdown-item" href="#">{{btnAccount}}</a>
+        <a class="dropdown-item" href="#">{{btnProfile}}</a>
+        <a class="dropdown-item" href="#">{{btnUpgrade}}</a>
+        <a class="dropdown-item" href="#">{{btnLogout}}</a>
+      </div>
+    </div>
+  </ng-container>
+</div>

@@ -1,0 +1,23 @@
+<div class="main">
+  <div class="box_main">
+    <div class="music">
+      <div class="recently_played">
+        <h2>{{titleAlbum}}</h2>
+        <div class="music-row" *ngFor="let album of albums">
+            <app-card [img]="album.img" [title]="album.title" [info]="album.info"></app-card>
+        </div>
+      </div>
+      <div class="artists">
+        <h2>{{titleArtists}}</h2>
+        <div class="music-row" *ngFor="let artist of artists">
+          <app-card [img]="artist.img" [title]="artist.title" [info]="artist.info"></app-card>
+        </div>
+      </div>
+      <div class="daily-mix">
+        <h2>{{titleDaily}}</h2>
+        <div class="music-row" *ngFor="let mix of dailyMix">
+          <app-card [img]="mix.img" [title]="mix.title" [info]="mix.info"></app-card></div>
+      </div>
+    </div>
+  </div>
+</div>

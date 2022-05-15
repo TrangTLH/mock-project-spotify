@@ -6,13 +6,13 @@ import {Routing} from "@enums/routing.enum";
 const routes: Routes = [
   {
     path: '',
-    redirectTo: Routing.Home,
+    redirectTo: Routing.Login,
     pathMatch: 'full'
   },
- /* {
-    path: '',
-    loadChildren: () => import('./components/user/user.module').then((m) => m.UserModule)
-  }*/
+  {
+    path: 'home',
+    loadChildren: () => import('./components/home/home.module').then((m) => m.HomeModule)
+  }
 ];
 
 @NgModule({

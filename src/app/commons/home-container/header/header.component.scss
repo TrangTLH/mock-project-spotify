@@ -1,0 +1,109 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  top: 0;
+  right: 0;
+  height: 70px;
+  z-index: 1;
+  background-color: rgba(11, 11, 11, 0.9);
+  position: sticky;
+}
+
+.btn-go-to {
+  font-size: 35px;
+  color: white;
+  opacity: 0.4;
+}
+
+.btn-previous {
+  position: absolute;
+  padding-left: 35px;
+}
+
+.btn-next {
+  position: absolute;
+  padding-left: 100px;
+  fill: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn-header {
+  padding: 8px 30px;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.btn-header:hover {
+  transition: scale 0.5s;
+  transform: scale(1.005);
+}
+
+.btn-signup {
+  position: absolute;
+  right: 250px;
+  color: white;
+  opacity: 0.9;
+}
+
+.btn-signup:hover {
+  opacity: 1;
+}
+
+.btn-login {
+  position: absolute;
+  right: 80px;
+  border: 1px solid #ffffff;
+  border-radius: 40px;
+  background-color: white;
+  color: black;
+}
+
+.btn-login:hover {
+  opacity: 0.7;
+}
+
+.btn-upgrade {
+  border: 1px solid #ffffff;
+  border-radius: 40px;
+}
+
+.dropdown{
+  padding-left: 83%;
+}
+
+.btn-account {
+  border: 1px solid #ffffff;
+  border-radius: 40px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-account:hover{
+  background-color: #444444;
+}
+
+.dropdown-menu {
+  background-color: #282828;
+}
+
+.dropdown-item {
+  color: white;
+  padding: 10px;
+  min-width: 200px;
+  padding-left: 15px;
+}
+
+.dropdown-item:hover {
+  background-color: #444444;
+}
+
+:host ::ng-deep .fa-regular {
+  font-size: 20px;
+}
+
+
