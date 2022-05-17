@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-footer-login',
@@ -6,34 +6,32 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer-login.component.scss']
 })
 export class FooterLoginComponent implements OnInit {
+  txtTitle = 'Upgrade to premium';
 
-  txtCompany = 'Company';
+  txtBody = 'Try Premium free for 3 months. Listen to your music offline and ad-free. Monthly subscription fee applies after. ' +
+    'Open only to users who haven\'t already tried Premium. ' +
+    'Offer excludes Family and Duo plans. ';
 
-  company = [
-    {txt: 'About'},
-    {txt: 'Jobs'},
-    {txt: 'For the Record'}
-  ];
+  txtTerm = 'Terms and conditions apply.';
 
-  txtCommunities = 'Communities';
+  txtTime = 'Offer ends in';
 
-  communities = [
-    {txt: 'For Artists'},
-    {txt: 'Developers'},
-    {txt: 'Advertising'},
-    {txt: 'Investors'},
-    {txt: 'Vendors'}
-  ];
+  txtDay = '9';
 
-  txtLink = 'Useful links';
+  txtDayUnit = 'Days';
 
-  links = [
-    {txt: 'Support'},
-    {txt: 'Web Player'},
-    {txt: 'Free Mobile App'}
-  ]
+  txtHour = '17';
 
-  constructor() { }
+  txtHourUnit = 'Hours';
+
+  txtMinute = '50';
+
+  txtMinuteUnit = 'Minutes';
+
+  btnGetMonth = 'get 3 months free';
+
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

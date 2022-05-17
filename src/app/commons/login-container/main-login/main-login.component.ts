@@ -24,7 +24,45 @@ export class MainLoginComponent implements OnInit {
 
   txtLine4 = 'Start listening to the best new releases.';
 
-  btnOpenWeb = 'Open Web Player'
+  btnOpenWeb = 'Open Web Player';
+
+  txtCompany = 'Company';
+
+  company = [
+    {txt: 'About'},
+    {txt: 'Jobs'},
+    {txt: 'For the Record'}
+  ];
+
+  txtCommunities = 'Communities';
+
+  communities = [
+    {txt: 'For Artists'},
+    {txt: 'Developers'},
+    {txt: 'Advertising'},
+    {txt: 'Investors'},
+    {txt: 'Vendors'}
+  ];
+
+  txtLink = 'Useful links';
+
+  links = [
+    {txt: 'Support'},
+    {txt: 'Web Player'},
+    {txt: 'Free Mobile App'}
+  ];
+
+  txtCountry = 'Vietnam (English)';
+
+  bottomLinks = [
+    {txt: 'Legal'},
+    {txt: 'Privacy Center'},
+    {txt: 'Privacy Policy'},
+    {txt: 'Cookies'},
+    {txt: 'About Ads'}
+  ];
+
+  txtVer = '© 2022 Spotify AB';
   constructor() {
   }
 
