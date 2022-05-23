@@ -6,7 +6,7 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  isLogin: boolean = false;
+  isLogin: boolean = true;
 
   username: string = 'Huyen Trang';
 
@@ -20,7 +20,7 @@ export class HeaderComponent implements OnInit {
 
   btnProfile: string = 'Profile';
 
-  btnLogout: string =  'Logout';
+  btnLogout: string =  'Log out';
 
   constructor() {
   }

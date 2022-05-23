@@ -6,7 +6,7 @@
   right: 0;
   height: 90px;
   z-index: 1;
-  background-color: rgba(11, 11, 11, 0.9);
+  background-color: rgba(11, 11, 11, 1);
   position: relative;
 }
 
@@ -62,6 +62,38 @@ a {
 
 .btn-login {
   right: 120px;
+}
+
+.btn-profile {
+  right: 160px;
+}
+
+.dropdown-menu {
+  background-color: white;
+  border-radius: 4px;
+}
+
+.dropdown-menu .show {
+  inset: 30px auto auto 30px
+}
+
+.dropdown-item {
+  color: #282828;
+  padding: 10px 16px 3px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.dropdown-item:hover {
+  color: #1ed760;
+}
+
+.logout {
+  color: #919496;
+}
+
+i {
+  margin: auto 6px auto 10px
 }
 
 

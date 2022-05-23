@@ -16,7 +16,28 @@ a {
   text-decoration: none;
   align-content: center;
   color: white;
+  cursor: pointer;
 }
+
+.playlist {
+  a {
+    color: white;
+    opacity: 0.7;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &:active {
+      opacity: 1;
+    }
+
+    &:focus {
+      opacity: 1;
+    }
+  }
+}
+
 
 ul {
   list-style: none !important;
@@ -36,6 +57,10 @@ li:first-child::before {
   opacity: 1;
 }
 
+svg {
+  margin-right: 10px;
+}
+
 svg:first-child {
   fill: #ffffff;
 }
@@ -50,7 +75,6 @@ svg:focus {
   color: white;
   font-size: 16px;
   opacity: 0.7;
-  padding-left: 10px;
 }
 
 .button:hover {
@@ -69,7 +93,7 @@ i {
   color: white;
   font-size: 25px;
   padding-top: 10px;
-  padding-right: 5px;
+  padding-right: 15px;
 }
 
 .btn-playlist {
