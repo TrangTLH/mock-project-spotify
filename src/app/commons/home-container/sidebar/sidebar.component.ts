@@ -21,7 +21,7 @@ export class SidebarComponent implements OnInit {
 
   btnLikedSongs: string = 'Liked Songs'
 
-  btnDownload: string = 'Download'
+  btnInstall: string = 'Install app'
   playlists = [
     {title: 'My playlist #1'},
     {title: 'My playlist #2'},
@@ -29,7 +29,6 @@ export class SidebarComponent implements OnInit {
     {title: 'My playlist #4'},
     {title: 'My playlist #5'},
     {title: 'My playlist #6'},
-    {title: 'My playlist #7'}
   ]
 
   constructor() { }

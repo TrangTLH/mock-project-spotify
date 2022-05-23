@@ -103,3 +103,8 @@ i {
 .songs li:first-child {
   margin-top: 35px;
 }
+
+.bottom-playlist {
+  overflow-y: scroll;
+  height: 24vh;
+}

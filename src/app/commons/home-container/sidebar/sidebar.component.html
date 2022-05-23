@@ -38,22 +38,22 @@
     </ul>
 
   <ng-container *ngIf="isLogin">
-    <hr>
-    <div>
-      <ul class="playlist" *ngFor="let playlist of playlists">
-        <li>
-          <a class="playlist">{{playlist.title}}
-          </a>
-        </li>
-      </ul>
+    <div class="bottom">
+      <hr>
+      <div class="bottom-playlist">
+        <ul class="playlist" *ngFor="let playlist of playlists">
+          <li>
+            <a class="playlist">{{playlist.title}}
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <a class="button">
+          <i class="fa-solid fa-circle-arrow-down"></i>
+          <span>{{btnInstall}}</span>
+        </a>
+      </div>
     </div>
-    <div>
-      <a class="button">
-        <i class="fa-solid fa-circle-arrow-down"></i>
-        <span>{{btnDownload}}</span>
-      </a>
-    </div>
-
   </ng-container>
-
 </div>
